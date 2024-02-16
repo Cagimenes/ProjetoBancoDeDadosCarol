@@ -1,0 +1,141 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #EBE8B6 !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu-principal {
+    background-color: #DBD000 !important;
+}
+.navbar-brand {
+    margin-top: -70px;
+    margin-left: -26px;
+}
+
+.img-logo img {
+    height: 100%;
+    width: 190px;
+    object-position: center;
+}
+
+.img-logo {
+    width: 330px;
+    height: 140px;
+    margin-left: 25px;
+    margin-top: -20px;
+    margin-bottom: -8px;
+}
+.rodape {
+    background-color: #DBD000 !important;
+    padding-left: 20px;
+    color: black;
+}
+.nav-item a {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #154484 !important;
+}
+
+.nav-item :hover {
+    color: #B3AB20 !important;
+}
+.botao {
+    text-decoration: none;
+    color: #154484 !important;
+}
+
+.botao:hover {
+    text-decoration: none;
+    color: #B3AB20 !important;
+}
+.texto {
+    color: #154484 !important;
+}
+.container img {
+    margin-top:20px;
+    width: 100%;
+    position:relative
+}
+.container .acesso {
+    position: absolute;
+    top: 713px;
+    left: 274px;
+    margin-right: 130px;
+    background-color: #FFD230;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 14px 37px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.container .acesso:hover {
+    background-color: #DBD000 !important;
+    color: white;
+}
+a {
+    color: #154484;
+}
+@media print {
+    header {
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    a {
+        display: none;
+    }
+    h1 {
+        display: none;
+        margin-left: -25px;
+    }
+    h4 {
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    .col-sm-2 {
+        margin-right: 200px;
+        font-size: 20px;
+        margin-left: -25px
+    }
+    .col-sm-10 {
+        margin-right: 200px;
+        font-size: 20px;
+        margin-left: -25px
+    }
+    h6 {
+        margin-right: 25px;
+        font-size: 20px;
+        margin-left: -25px;
+        font-weight: bold !important;
+    }
+    .nav-link {
+        display: none;
+    }
+    td {
+        font-size: 20px;
+        margin-left: -30px;
+    }
+}
